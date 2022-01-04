@@ -1,3 +1,6 @@
+USE company;
+
+
 INSERT INTO department(name)
 VALUES
 ("Sales"),
@@ -17,4 +20,6 @@ VALUES
 
     INSERT INTO employees (first_name, last_name, job_title, roles_id, manager_id )
     VALUES
-    
+    ("Mark", "Smith", "Sales person",1, NULL),
+    ("Zachary", "Royka", "Sales person", 1, NULL),
+    ("")
